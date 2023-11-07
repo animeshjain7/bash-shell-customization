@@ -116,19 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-##########################
-# i made changes from here
-##########################
 
-#PS1="\n\u@\h:\w\$ "
-
-
-
-# Node js(V 18)
-export PATH="$PATH:/home/name/nodejs/bin"
-
-# Java (openJDK V 21)
-export JAVA_HOME=/home/name/jdk-21.0.1
-export PATH=$JAVA_HOME/bin:$PATH
-#export PATH="$PATH:/home/name/jdk-21.0.1/bin"
 
